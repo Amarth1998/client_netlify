@@ -12,7 +12,7 @@ const [isLoading,setIsLoading]=useState(true) ;  //to handle loading state for t
 
 const authorizationToken=`Bearer ${token}`
 
-const API=import.meta.env.VITE_API;
+const API="https://server-netlify.onrender.com";
 
 const storeTokenInLS=(serverToken)=>{
   setToken(serverToken)
