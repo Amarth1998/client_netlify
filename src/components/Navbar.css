@@ -9,3 +9,20 @@ ul {
   display: flex;
   gap: 3.2rem;
 }
+
+
+@media (max-width:400px)  { 
+
+  nav {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  ul{
+    margin-top: 10px;
+    gap: 1.5rem;
+  }
+  .container{display: block;
+   padding: 0%; 
+  }
+
+}

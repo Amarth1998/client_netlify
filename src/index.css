@@ -590,7 +590,7 @@ body tr {
 /** -----------------------
 ** media query section css
 ** -------------------------  */
-
+/* 
 @media (width <= 998px) {
   .grid-two-cols {
     grid-template-columns: 1fr;
@@ -632,4 +632,36 @@ body tr {
       }
     }
   }
+} */
+
+@media (max-width:400px)  { 
+    
+
+  /***** Hero Section *****/
+  main{margin-top: 0px;}
+  .section-hero{ margin-top: 0px;}
+button {padding: 1rem 2rem; }
+.grid-two-cols{display: block;}
+.secondary-btn {margin-left:1rem; }
+/***** Hero Section  end *****/
+
+
+
+
+
+
+/***** analytics Section *****/
+.grid-four-cols{ display: block; }
+
+.section-analytics {
+margin: 0px;
+& .grid {
+  & .div1 {
+    border: none;
+    & h2 {   margin-top: 15px; }
+  }}}
+
+      /***** analytics Section end *****/
+
+      
 }
