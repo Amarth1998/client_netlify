@@ -1,5 +1,6 @@
 import React from "react";
 import { Analytics } from "../components/Analytics"; 
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -18,9 +19,9 @@ const Home = () => {
               <span style={{color:"#dc143c"}}>Get notes for free after registration </span> 
               </p>
               <div className="btn btn-group">
-                <a href="/contact">
+                <NavLink to="/login">
                   <button className="btn ">connect now</button>
-                </a>
+                </NavLink>
                 <a href="/register">
                   <button className="btn secondary-btn">Get Notes</button>
                 </a>
