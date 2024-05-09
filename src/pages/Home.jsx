@@ -22,9 +22,9 @@ const Home = () => {
                 <NavLink to="/login">
                   <button className="btn ">connect now</button>
                 </NavLink>
-                <a href="/register">
+                <NavLink to="/login">
                   <button className="btn secondary-btn">Get Notes</button>
-                </a>
+                </NavLink>
               </div>
             </div>
 
@@ -66,12 +66,12 @@ const Home = () => {
               IT infrastructure? Contact us today for a free consultation.
             </p>
             <div className="btn btn-group">
-              <a href="/contact">
-                <button className="btn">connect now</button>
-              </a>
-              <a href="/login">
-                <button className="btn secondary-btn">Get Notes</button>
-              </a>
+              <NavLink to="/contact">
+                <button className="btn">Contact now</button>
+              </NavLink>
+              <NavLink to="/about">
+                <button className="btn secondary-btn">About Us</button>
+              </NavLink>
             </div>
           </div>
         </div>
