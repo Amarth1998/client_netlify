@@ -12,7 +12,7 @@ const Notes = () => {
         <div className="container grid grid-four-cols">
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -25,9 +25,9 @@ const Notes = () => {
             </a>
           </div>
 
-          <div
+          <div 
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -49,7 +49,7 @@ const Notes = () => {
 
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -64,7 +64,7 @@ const Notes = () => {
 
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -80,6 +80,7 @@ const Notes = () => {
           <div
             className="card"
             style={{
+              marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -94,7 +95,7 @@ const Notes = () => {
 
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -108,7 +109,7 @@ const Notes = () => {
           </div>
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -122,7 +123,7 @@ const Notes = () => {
           </div>
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -137,7 +138,7 @@ const Notes = () => {
 
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -151,7 +152,7 @@ const Notes = () => {
           </div>
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",
@@ -166,7 +167,7 @@ const Notes = () => {
 
           <div
             className="card"
-            style={{
+            style={{  marginTop:"2px",
               textAlign: "center",
               alignItems: "center",
               paddingTop: "10px",

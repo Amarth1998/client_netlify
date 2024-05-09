@@ -590,7 +590,7 @@ body tr {
 /** -----------------------
 ** media query section css
 ** -------------------------  */
-/* 
+
 @media (width <= 998px) {
   .grid-two-cols {
     grid-template-columns: 1fr;
@@ -632,7 +632,8 @@ body tr {
       }
     }
   }
-} */
+}
+
 
 @media (max-width:400px)  { 
     
