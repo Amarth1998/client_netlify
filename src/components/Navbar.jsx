@@ -9,7 +9,7 @@ const Navbar = () => {
       <header>
         <div className="container">
           <div className="logo-brand" >
-            <NavLink style={{fontSize:"30px",fontFamily:"serif",color: "#dc143c"}}>XpressTech Free Solutions </NavLink>
+            <NavLink style={{fontSize:"30px",fontFamily:"serif",color: "#dc143c"}}>XpressTech  Solutions </NavLink>
           </div>
 <nav>            <ul>        
               <li><NavLink to="/"> Home </NavLink></li>
